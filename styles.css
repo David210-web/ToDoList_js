@@ -1,0 +1,30 @@
+.dropdown-menu
+{
+    user-select: none;
+}
+
+.todo-container {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#task-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+}
+
+.task.completed {
+    text-decoration: line-through;
+}
+
+button {
+    margin-left: 10px;
+}
